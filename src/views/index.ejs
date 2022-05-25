@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1 class="title">
+    Send Email with NodeJS
+  </h1>
+  <form id="sendEmailForm" method="post">
+    <label for="">
+      Your first name
+    </label>
+    <input type="text" name="firstName" placeholder="First Name">
+    <label for="">
+      Your last name
+    </label>
+    <input type="text" name="lastName" placeholder="Last Name">
+    <label for="">
+      Subject
+    </label>
+    <input type="text" name="subject" placeholder="E-mail subject">
+    <label for="">
+      E-mail
+    </label>
+    <input type="email" name="email" placeholder="Email Address">
+    <label for="">
+      Message
+    </label>
+    <textarea name="message"></textarea>
+    <p id="message"></p>
+    <button type="submit">
+      Send Email
+    </button>
+  </form>
+  <script src="js/script.js"></script>
+</body>
+</html>
